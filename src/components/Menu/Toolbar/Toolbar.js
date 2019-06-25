@@ -1,6 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import DrawerToggleButton from "../SideDrawer/DrawerToggleButton"
+import logo from "../../../img/TheOfficeBar.png"
 
 import styles from "./Toolbar.module.scss"
 
@@ -11,7 +12,9 @@ const Toolbar = props => (
         <DrawerToggleButton click={props.drawerClickHandler} />
       </div>
       <div className={styles.toolbar__logo}>
-        <Link to="/">The Office Bar</Link>
+        <Link to="/">
+          <img src={logo} alt="The Office Bar" />
+        </Link>
       </div>
       <div className={styles.spacer} />
       <div className={styles.toolbar__nav_items}>
