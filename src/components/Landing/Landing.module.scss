@@ -1,0 +1,23 @@
+.landing {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  img {
+    max-width: 960px;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .landing {
+    img {
+      max-width: 100%;
+      margin-top: 5rem;
+    }
+  }
+}
