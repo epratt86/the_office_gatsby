@@ -10,9 +10,10 @@
   width: 100%;
   top: 0;
   left: 0;
-  height: 60px;
+  height: 70px;
   font-family: "Filmotype Gay";
   box-shadow: 0px 1px 5px #000;
+  padding-top: 10px;
 }
 
 .toolbar__navigation {
@@ -61,8 +62,8 @@
 }
 
 .toolbar__nav_items a:hover,
-.toolbar__nav_items a:active {
-  color: #333;
+.active {
+  color: #ccc !important;
 }
 
 @media (max-width: 768px) {
@@ -70,6 +71,11 @@
     width: 100vw;
     text-align: center;
     margin: 0;
+
+    a img {
+      max-width: 250px;
+      margin-top: 12px;
+    }
   }
   .toolbar__nav_items {
     display: none;
