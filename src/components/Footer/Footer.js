@@ -105,6 +105,7 @@ const footer = props => (
               </a>
             </div>
             <h3>
+              Hours: 4pm - 2am <br />
               Address: 3936 30th Street, San Diego, California 92104 <br />{" "}
               Phone: 619-450-6632
             </h3>
