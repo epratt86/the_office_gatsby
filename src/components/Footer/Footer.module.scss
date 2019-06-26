@@ -1,0 +1,109 @@
+@font-face {
+  font-family: "Filmotype Gay";
+  src: url("../../fonts/Filmotype\ Gay.otf");
+}
+
+.footer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  background: #000;
+  color: #fff;
+  margin-top: 2rem;
+  font-family: "Filmotype Gay", sans-serif;
+}
+
+.space-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+
+  a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  a:hover {
+    opacity: 0.7;
+  }
+
+  svg {
+    font-size: 30px;
+  }
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem 0;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+}
+
+.mailing-list {
+  padding: 0;
+  margin: 0 auto;
+  display: flex;
+  max-width: 1100px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.map {
+  max-width: 400px;
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+input[type="email"] {
+  margin: 0 1rem !important;
+  margin-right: 1rem;
+}
+
+input[type="submit"] {
+  padding: 0.5rem 1.2rem;
+  background: #fbdf12;
+  font-size: 20px;
+  border: none !important;
+  font-family: "Filmotype Gay", sans-serif;
+  font-weight: bold;
+}
+
+input[type="submit"]:hover {
+  opacity: 0.7;
+}
+
+.icons {
+  margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  footer {
+    display: block;
+
+    .space-between {
+      display: block;
+
+      &:first-child {
+        text-align: center;
+        order: 2;
+      }
+    }
+    .map {
+      order: 1;
+      margin-top: 1rem;
+    }
+
+    h4 {
+      text-align: center;
+    }
+  }
+}

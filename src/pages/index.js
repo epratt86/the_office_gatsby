@@ -24,7 +24,7 @@ const IndexPage = () => {
     <Layout>
       <Head title="Home" description="Description here" />
 
-      <main style={{ marginTop: "100px" }}>
+      <main style={{ marginTop: "60px" }}>
         <Landing />
         {data.allContentfulAsset.edges.map(edge => {
           return (
@@ -32,10 +32,10 @@ const IndexPage = () => {
               src={edge.node.file.url}
               alt={edge.node.title}
               style={{
-                maxWidth: "100vw",
+                maxWidth: "95vw",
                 width: "1100px",
                 display: "block",
-                margin: "1rem auto",
+                margin: "0 auto",
               }}
             />
           )

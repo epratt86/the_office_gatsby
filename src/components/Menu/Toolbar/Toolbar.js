@@ -34,7 +34,7 @@ const Toolbar = props => (
               Merch
             </Link>
           </li>
-          <li>
+          <li style={{ paddingRight: "0" }}>
             <Link to="/contact" activeClassName={styles.active} title="Contact">
               Contact
             </Link>
