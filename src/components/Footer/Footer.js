@@ -38,7 +38,6 @@ const footer = props => (
               <div style={{ display: "flex" }}>
                 <input
                   type="email"
-                  value=""
                   name="EMAIL"
                   className="email"
                   id="mce-EMAIL"

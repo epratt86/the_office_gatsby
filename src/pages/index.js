@@ -22,7 +22,10 @@ const IndexPage = () => {
 
   return (
     <Layout>
-      <Head title="Home" description="Description here" />
+      <Head
+        title="Home"
+        description="Welcome to the offical web site for The Office Bar. We have been providing cocktails and entertainment in North Park since 1948. Happy hour daily from 4-9."
+      />
 
       <main style={{ marginTop: "60px" }}>
         <Landing />

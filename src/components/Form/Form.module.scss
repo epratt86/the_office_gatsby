@@ -1,0 +1,82 @@
+@font-face {
+  font-family: "Filmotype Gay";
+  src: url("../../fonts/Filmotype\ Gay.otf");
+}
+
+@font-face {
+  font-family: "Filmotype Jupiter";
+  src: url("../../fonts/Filmotype\ Jupiter.otf");
+}
+
+.contact {
+  font-family: "Filmotype Gay", sans-serif;
+}
+
+.title {
+  font-family: "Filmotype Jupiter", sans-serif;
+  font-size: 42px;
+  border-bottom: 2px solid #000;
+  width: 130px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.fields {
+  display: grid;
+  grid-template-areas:
+    "name email"
+    "subject phone"
+    "message message";
+  grid-gap: 1rem;
+  margin-bottom: 1.5rem;
+
+  // Grid Areas
+  .name {
+    grid-area: name;
+  }
+
+  .subject {
+    grid-area: subject;
+  }
+
+  .email {
+    grid-area: email;
+    margin: 0 !important;
+  }
+
+  .phone {
+    grid-area: phone;
+  }
+
+  .message {
+    grid-area: message;
+    height: 120px;
+  }
+
+  input,
+  textarea {
+    padding: 0.5rem 1rem;
+  }
+}
+.submit {
+  padding: 0.7rem 3rem;
+  background: #ccc;
+  font-family: "Filmotype Gay", sans-serif;
+  font-size: 24px;
+
+  &:hover {
+    cursor: pointer;
+    background: #bbb;
+  }
+}
+
+@media (max-width: 768px) {
+  .fields {
+    grid-template-areas:
+      "name"
+      "subject"
+      "email"
+      "phone"
+      "message";
+  }
+}
