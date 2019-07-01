@@ -19,21 +19,21 @@ module.exports = {
         username: `theofficebarsd`,
       },
     },
-    // {
-    //   resolve: "gatsby-plugin-google-analytics",
-    //   options: {
-    //     trackingId: "UA-130672056-1",
-    //     head: true,
-    //   },
-    // },
-    // {
-    //   resolve: "gatsby-plugin-robots-txt",
-    //   options: {
-    //     host: "https://www.epratt.net",
-    //     sitemap: "https://www.epratt.net/sitemap.xml",
-    //     policity: [{ userAgent: "*", allow: "/" }],
-    //   },
-    // },
+    {
+      resolve: "gatsby-plugin-google-analytics",
+      options: {
+        trackingId: "UA-130550866-1",
+        head: true,
+      },
+    },
+    {
+      resolve: "gatsby-plugin-robots-txt",
+      options: {
+        host: "https://www.theofficebarsd.com",
+        sitemap: "https://www.theofficebarsd.com/sitemap.xml",
+        policity: [{ userAgent: "*", allow: "/" }],
+      },
+    },
     {
       resolve: "gatsby-source-contentful",
       options: {
@@ -50,20 +50,5 @@ module.exports = {
       },
     },
     "gatsby-plugin-sharp",
-    // {
-    //   resolve: "gatsby-transformer-remark",
-    //   options: {
-    //     plugins: [
-    //       "gatsby-remark-relative-images",
-    //       {
-    //         resolve: "gatsby-remark-images",
-    //         options: {
-    //           maxWidth: 750,
-    //           linkImagesToOriginal: false,
-    //         },
-    //       },
-    //     ],
-    //   },
-    // },
   ],
 }

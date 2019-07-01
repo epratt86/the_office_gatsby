@@ -74,9 +74,9 @@ const footer = props => (
       >
         <div className={styles.spaceBetween}>
           <div style={{ display: "flex", flexDirection: "column" }}>
-            <h3 style={{ fontSize: "24px", marginTop: "0" }}>
+            <h1 style={{ fontSize: "24px", marginTop: "0" }}>
               COCKTAILS AND ENTERTAINMENT IN NORTH PARK SINCE 1948
-            </h3>
+            </h1>
             <Link to="home">Home</Link>
             <Link to="events">Events</Link>
             <Link to="merch">Merch</Link>
