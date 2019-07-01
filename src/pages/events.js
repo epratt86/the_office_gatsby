@@ -2,6 +2,7 @@ import React from "react"
 import { graphql, useStaticQuery } from "gatsby"
 import Layout from "../components/Layout/Layout"
 import Head from "../components/Head"
+import Banner from "../components/Banner/Banner"
 
 import styles from "./events.module.scss"
 
@@ -37,7 +38,7 @@ const EventsPage = () => {
         }}
       >
         <section className={styles.events}>
-          <h1 className={styles.title}>Events</h1>
+          <Banner title="Events" />
           <h2>See whats happening @theofficebarsd</h2>
           <div className={styles.flexRow}>
             {data.allInstaNode.edges.map(edge => {

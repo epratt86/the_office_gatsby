@@ -2,6 +2,7 @@ import React from "react"
 import Layout from "../components/Layout/Layout"
 import Head from "../components/Head"
 import Form from "../components/Form/Form"
+import Banner from "../components/Banner/Banner"
 
 const ContactPage = () => {
   return (
@@ -18,6 +19,7 @@ const ContactPage = () => {
           display: "block",
         }}
       >
+        <Banner title="Contact" />
         <Form />
       </main>
     </Layout>

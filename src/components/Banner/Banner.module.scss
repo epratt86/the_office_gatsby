@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "Filmotype Fashion";
+  src: url("../../fonts/Filmotype\ Jupiter.otf");
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+
+  img {
+    height: 125px;
+  }
+
+  .title {
+    font-family: "Filmotype Fashion", sans-serif;
+    font-size: 36px;
+    text-align: center;
+    font-weight: 500;
+  }
+}

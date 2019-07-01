@@ -1,6 +1,9 @@
 import React from "react"
 import Layout from "../components/Layout/Layout"
 import Head from "../components/Head"
+import Banner from "../components/Banner/Banner"
+
+import styles from "./merch.module.scss"
 
 const MerchPage = () => {
   return (
@@ -18,7 +21,9 @@ const MerchPage = () => {
           display: "block",
         }}
       >
-        <p>This is coming from merch.js</p>
+        <section className={styles.merch}>
+          <Banner title="Merchandise" />
+        </section>
       </main>
     </Layout>
   )

@@ -4,8 +4,7 @@ import styles from "./Form.module.scss"
 
 const form = props => (
   <section className={styles.contact}>
-    <h1 className={styles.title}>Contact Us</h1>
-    <h2>Please fill out the form to get in touch with the men upstairs.</h2>
+    <h2>Please fill out the form to get in touch</h2>
     <form
       name="contact"
       method="POST"
