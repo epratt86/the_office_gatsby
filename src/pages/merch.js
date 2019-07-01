@@ -23,6 +23,9 @@ const MerchPage = () => {
       >
         <section className={styles.merch}>
           <Banner title="Merchandise" />
+          <h2>Purchase your favorite Office attire</h2>
+          <br />
+          <h3>This page is coming soon! Check back for updates...</h3>
         </section>
       </main>
     </Layout>
