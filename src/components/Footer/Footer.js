@@ -27,10 +27,7 @@ const footer = props => (
           style={{ padding: "0" }}
         >
           <div id="mc_embed_signup_scroll">
-            <label
-              for="mce-EMAIL"
-              style={{ fontSize: "20px", padding: "10px" }}
-            >
+            <label for="mce-EMAIL" className={styles.signUp}>
               Sign up for our mailing list and stay up to date with upcoming
               events and special promotions.
             </label>
