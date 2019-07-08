@@ -1,5 +1,5 @@
 import React from "react"
-import disco from "../../img/discoball.png"
+import disco from "../../img/discoball-compressor.png"
 
 import styles from "./Banner.module.scss"
 

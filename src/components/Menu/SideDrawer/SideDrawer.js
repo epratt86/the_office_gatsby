@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import officeParty from "../../../img/office-party.png"
+import officeParty from "../../../img/office-party-compressor.png"
 
 import styles from "./SideDrawer.module.scss"
 

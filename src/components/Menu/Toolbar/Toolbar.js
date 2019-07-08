@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import DrawerToggleButton from "../SideDrawer/DrawerToggleButton"
-import logo from "../../../img/TheOfficeBar.png"
+import logo from "../../../img/TheOfficeBar-compressor.png"
 
 import styles from "./Toolbar.module.scss"
 

@@ -1,7 +1,7 @@
 import React from "react"
 import { Helmet } from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
-import img from "../img/Office_Thumbnail.png"
+import img from "../img/Office_Thumbnail-compressor.png"
 
 const Head = ({ title, description }) => {
   const data = useStaticQuery(graphql`

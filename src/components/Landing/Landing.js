@@ -1,5 +1,5 @@
 import React from "react"
-import img from "../../img/landing-img.png"
+import img from "../../img/landing-img-compressor.png"
 
 import styles from "./Landing.module.scss"
 
