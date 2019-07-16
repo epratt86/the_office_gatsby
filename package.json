@@ -24,7 +24,6 @@
     "gatsby-plugin-sitemap": "^2.1.0",
     "gatsby-plugin-web-font-loader": "^1.0.4",
     "gatsby-source-contentful": "^2.0.57",
-    "gatsby-source-filesystem": "^2.0.28",
     "gatsby-source-instagram": "^0.5.1",
     "lodash.throttle": "^4.1.1",
     "node-sass": "^4.12.0",
