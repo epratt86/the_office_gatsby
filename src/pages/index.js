@@ -39,6 +39,7 @@ const IndexPage = () => {
                 width: "1100px",
                 display: "block",
                 margin: "0 auto",
+                padding: "1rem 0",
               }}
             />
           )
