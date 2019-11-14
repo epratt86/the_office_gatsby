@@ -31,24 +31,24 @@ const footer = props => (
               Sign up for our mailing list and stay up to date with upcoming
               events and special promotions.
             </label>
-            <div>
-              <div style={{ display: "flex" }}>
-                <input
-                  type='email'
-                  name='EMAIL'
-                  className='email'
-                  id='mce-EMAIL'
-                  placeholder='Enter your email address'
-                  required
-                />
-                <input
-                  type='submit'
-                  value='Subscribe'
-                  name='subscribe'
-                  id='mc-embedded-subscribe'
-                />
-              </div>
+
+            <div className={styles.input}>
+              <input
+                type='email'
+                name='EMAIL'
+                className={styles.email}
+                id='mce-EMAIL'
+                placeholder='Enter your email address'
+                required
+              />
+              <input
+                type='submit'
+                value='Subscribe'
+                name='subscribe'
+                id='mc-embedded-subscribe'
+              />
             </div>
+
             <div
               style={{ position: "absolute", left: "-5000px" }}
               aria-hidden='true'
@@ -100,23 +100,35 @@ const footer = props => (
                 <FaTwitterSquare style={{ color: "#1da1f2" }} />
               </a>
             </div>
+          </div>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              lineHeight: "3rem",
+            }}
+          >
             <h3>
               Hours: 4pm - 2am <br />
-              Address: 3936 30th Street, San Diego, California 92104 <br />{" "}
-              Phone: 619-450-6632
+              Address:&nbsp;
+              <a
+                href='https://goo.gl/maps/wnHYnMYUU5F2xvPi8'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                3936 30th Street, San Diego, California 92104 <br />
+              </a>
+              Phone:&nbsp;
+              <a
+                href='tel:619-450-6632'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                619-450-6632
+                <br />
+              </a>
             </h3>
           </div>
-          <a
-            href='https://goo.gl/maps/wnHYnMYUU5F2xvPi8'
-            target='_blank'
-            rel='noopener noreferrer'
-          >
-            <img
-              src={map}
-              alt='Located at 3936 30th Street, San Diego, California 92104'
-              className={styles.map}
-            />
-          </a>
         </div>
       </div>
     </div>

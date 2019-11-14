@@ -5,6 +5,24 @@
 
 .contact {
   font-family: "Filmotype Gay", sans-serif;
+
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+}
+
+.form {
+  background: black;
+  padding: 2rem 1rem;
+  border-radius: 10px;
+  box-shadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
+
+  input,
+  textarea {
+    border-radius: 5px;
+    font-size: 1.2rem;
+  }
 }
 
 .fields {
@@ -45,15 +63,22 @@
   }
 }
 .submit {
-  padding: 0.7rem 3rem;
-  background: #ccc;
-  font-family: "Filmotype Gay", sans-serif;
-  font-size: 24px;
+  background: transparent;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  padding: 0.9rem 1.6rem;
+  display: inline-block;
+  transition: all 0.3s linear;
+  cursor: pointer;
+  font-size: 0.8rem;
+  white-space: nowrap;
+}
 
-  &:hover {
-    cursor: pointer;
-    background: #bbb;
-  }
+.submit:hover {
+  background: #ffffff;
+  color: #000000;
 }
 
 @media (max-width: 768px) {

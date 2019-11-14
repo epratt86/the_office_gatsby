@@ -46,6 +46,11 @@
   text-align: center;
 }
 
+.sign-up {
+  font-size: 1.5rem !important;
+  padding: 0 1rem 1rem !important;
+}
+
 .mailing-list {
   padding: 0;
   margin: 0 auto;
@@ -63,23 +68,39 @@
   margin-bottom: 10px;
 }
 
+.email {
+  padding: 1rem 0.5rem;
+  width: 390px !important;
+}
+
 input[type="email"] {
   margin: 0 1rem !important;
   margin-right: 1rem;
 }
 
 input[type="submit"] {
-  padding: 0.5rem 1.2rem;
   background: #fbdf12;
-  font-size: 20px;
-  border: none !important;
-  font-family: "Filmotype Gay", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: #000000;
+  border: 2px solid #fbdf12 !important;
+  padding: 0.9rem 1.6rem;
+  display: inline-block;
+  transition: all 0.3s linear;
+  cursor: pointer;
+  white-space: nowrap;
+  font-family: "Filmotype Gay", Arial, sans-serif;
+  font-size: 1rem;
   font-weight: bold;
 }
 
 input[type="submit"]:hover {
-  background: #ffec60;
-  cursor: pointer;
+  background: transparent;
+  color: #fbdf12;
+}
+
+.input {
+  display: flex;
 }
 
 .icons {
@@ -98,17 +119,28 @@ input[type="submit"]:hover {
         order: 2;
       }
     }
-    .map {
-      order: 1;
-      margin-top: 1rem;
+
+    .sign-up {
+      text-align: center;
+    }
+
+    .input {
+      flex-direction: column;
+    }
+
+    .email {
+      width: 80% !important;
+      margin: 0 auto !important;
+    }
+
+    input[type="submit"] {
+      max-width: 90vw;
+      width: 40%;
+      margin: 1rem auto 0;
     }
 
     h4 {
       text-align: center;
-    }
-
-    .sign-up {
-      margin: 0 4px;
     }
   }
 }

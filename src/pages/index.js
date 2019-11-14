@@ -23,8 +23,8 @@ const IndexPage = () => {
   return (
     <Layout>
       <Head
-        title="Home"
-        description="Welcome to the offical web site for The Office Bar. We have been providing cocktails and entertainment in North Park since 1948. Happy hour daily from 4-9."
+        title='Home'
+        description='Welcome to the offical web site for The Office Bar. We have been providing cocktails and entertainment in North Park since 1948. Happy hour daily from 4-9.'
       />
 
       <main style={{ marginTop: "60px" }}>
@@ -39,7 +39,8 @@ const IndexPage = () => {
                 width: "1100px",
                 display: "block",
                 margin: "0 auto",
-                padding: "1rem 0",
+                borderRadius: "5%",
+                boxShadow: "2px 5px 3px 0px rgba(0, 0, 0, 0.5)",
               }}
             />
           )
