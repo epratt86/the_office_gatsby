@@ -133,14 +133,14 @@ const footer = props => (
       </div>
     </div>
     <div className={styles.container}>
-      <h4 style={{ padding: "10px" }}>
-        © {year} The Office. All rights reserved. Site by{" "}
+      <h4 style={{ padding: "10px 0" }}>
+        © {year} The Office. All rights reserved.&nbsp;
         <a
           href='https://www.epratt.net'
           target='_blank'
           rel='noopener noreferrer'
         >
-          eric
+          Site by eric
         </a>
       </h4>
     </div>

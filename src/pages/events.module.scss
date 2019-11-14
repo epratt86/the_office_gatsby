@@ -19,7 +19,8 @@
 }
 
 .post {
-  width: 340px;
+  max-width: 340px;
+  width: 100%;
   height: auto;
   background: #000000;
   color: #ffffff;
@@ -50,6 +51,6 @@
     display: block;
     margin: 0 auto;
     margin-bottom: 1rem;
-    border-bottom: 1px dotted #000;
+    max-width: 100%;
   }
 }
