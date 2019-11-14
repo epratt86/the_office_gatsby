@@ -13,7 +13,7 @@
 }
 
 .form {
-  background: black;
+  background: #e4e4e4;
   padding: 2rem 1rem;
   border-radius: 10px;
   box-shadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
@@ -66,8 +66,8 @@
   background: transparent;
   text-transform: uppercase;
   letter-spacing: 4px;
-  color: #ffffff;
-  border: 2px solid #ffffff;
+  color: #000000;
+  border: 2px solid #000000;
   padding: 0.9rem 1.6rem;
   display: inline-block;
   transition: all 0.3s linear;
@@ -77,11 +77,14 @@
 }
 
 .submit:hover {
-  background: #ffffff;
-  color: #000000;
+  background: #000000;
+  color: #e4e4e4;
 }
 
 @media (max-width: 768px) {
+  .contact h2 {
+    text-align: center;
+  }
   .fields {
     grid-template-areas:
       "name"
