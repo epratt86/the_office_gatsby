@@ -16,6 +16,24 @@
 .post {
   width: 340px;
   height: auto;
+  background: #000000;
+  color: #ffffff;
+  margin: 1rem 0;
+  border-radius: 10px;
+  box-shadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
+
+  img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+  p {
+    padding: 1rem;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    letter-spacing: 1px;
+  }
 }
 
 @media (max-width: 550px) {

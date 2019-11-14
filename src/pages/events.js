@@ -25,7 +25,7 @@ const EventsPage = () => {
   return (
     <Layout>
       <Head
-        title="Events"
+        title='Events'
         description="Check out our events page to find out what's going on this week at The Office."
       />
 
@@ -38,7 +38,7 @@ const EventsPage = () => {
         }}
       >
         <section className={styles.events}>
-          <Banner title="Events" />
+          <Banner title='Events' />
           <h2>See whats happening @theofficebarsd</h2>
           <div className={styles.flexRow}>
             {data.allInstaNode.edges.map(edge => {
@@ -48,13 +48,9 @@ const EventsPage = () => {
                   <img
                     src={edge.node.thumbnails[4].src}
                     alt={edge.node.caption}
-                    style={{
-                      width: "340px",
-                      display: "block",
-                    }}
                   />
                   <p>{edge.node.caption}</p>
-                  <p>
+                  <p style={{ textAlign: "right" }}>
                     Posted on: {new Date(timeStamp * 1000).toLocaleDateString()}
                   </p>
                 </div>
