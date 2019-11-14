@@ -5,7 +5,8 @@
 
 .side-drawer {
   height: 100%;
-  background: #fff;
+  background: #000000;
+  color: #ffffff;
   box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.5);
   position: fixed;
   top: 0;
@@ -32,9 +33,10 @@
     li {
       margin: 0.5rem 0;
       a {
-        color: #000;
+        color: #ffffff;
         text-decoration: none;
-        font-size: 1.5rem;
+        font-size: 2rem;
+        letter-spacing: 2px;
       }
 
       a:hover,
@@ -44,9 +46,11 @@
     }
   }
   img {
-    max-width: 250px;
+    max-width: 350px;
+    width: 100%;
     display: block;
     margin: 0 auto;
+    opacity: 0.8;
   }
 }
 
@@ -59,6 +63,7 @@
   font-size: 30px;
   padding: 1rem;
   margin-left: auto;
+  color: #ffffff;
 }
 
 @media (min-width: 769px) {
