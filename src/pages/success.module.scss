@@ -1,0 +1,28 @@
+.success h2 {
+  font-family: "Filmotype Gay";
+  background: #000000;
+  color: #ffffff;
+  padding: 1rem;
+}
+
+.button {
+  background: #fbdf12;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #000000;
+  border: 2px solid #fbdf12 !important;
+  padding: 0.9rem 1.6rem;
+  display: inline-block;
+  transition: all 0.3s linear;
+  cursor: pointer;
+  white-space: nowrap;
+  font-family: "Filmotype Gay", Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.button:hover {
+  background: transparent;
+  color: #fbdf12;
+}

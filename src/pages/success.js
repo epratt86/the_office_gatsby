@@ -1,14 +1,17 @@
 import React from "react"
+import { Link } from "gatsby"
 import Layout from "../components/Layout/Layout"
 import Head from "../components/Head"
 import Banner from "../components/Banner/Banner"
+
+import styles from "./success.module.scss"
 
 const SuccessPage = () => {
   return (
     <Layout>
       <Head
-        title="Success"
-        description="Thank you for reaching out to us @ The Office. Someone will be getting in touch with you soon."
+        title='Success'
+        description='Thank you for reaching out to us @ The Office. Someone will be getting in touch with you soon.'
       />
 
       <main
@@ -19,12 +22,16 @@ const SuccessPage = () => {
           display: "block",
         }}
       >
-        <section style={{ fontFamily: "Filmotype Gay" }}>
-          <Banner title="Success" />
+        <section className={styles.success}>
+          <Banner title='Success!' />
           <h2>
-            Thank you for reaching out to us @ The Office. Someone will be
-            getting in touch with you soon.
+            Your form was successfully submitted&nbsp;&nbsp; –Thank you for
+            reaching out to us @ The Office. Someone will be getting in touch
+            with you soon.
           </h2>
+          <Link to='/' class={styles.button}>
+            Return Home
+          </Link>
         </section>
       </main>
     </Layout>
