@@ -25,6 +25,11 @@ const Toolbar = props => (
             </Link>
           </li>
           <li>
+            <Link to='/about' activeClassName={styles.active} title='About'>
+              About
+            </Link>
+          </li>
+          <li>
             <Link to='/events' activeClassName={styles.active} title='Events'>
               Events
             </Link>
