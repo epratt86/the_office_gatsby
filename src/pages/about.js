@@ -60,15 +60,7 @@ const AboutPage = () => {
               concept behind The Office Bar combines the comfort and personality
               of a classic cocktail lounge with the a twist: you're the boss!
             </p>
-            <p>
-              Come for Happy Hour: 2 for 1 Prices on ALL DRINKS from 4-7pm, with
-              $5 Signature Cocktails until 9pm.
-            </p>
-            <p>
-              Feel free to order in from one of several neighborhood
-              restaurants; we'll have it delivered to you at your barstool or
-              booth.
-            </p>
+            <p>Come for Happy Hour: 4 - 9 DAILY.</p>
             <p>
               The Office is available for Birthday Parties, Special Events,
               Benefits, Mixers, etc and shows Chargers, Lakers, NFL, NBA & MLB
