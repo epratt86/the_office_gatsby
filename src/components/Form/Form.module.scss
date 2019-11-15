@@ -9,13 +9,13 @@
   h2 {
     font-size: 2rem;
     margin-bottom: 0.5rem;
-    letter-spacing: 3px;
+    letter-spacing: 1px;
   }
 }
 
 .form {
-  background: #e4e4e4;
-  padding: 2rem 1rem;
+  background: #000000;
+  padding: 1rem 1rem 2rem;
   border-radius: 10px;
   box-shadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
 
@@ -61,14 +61,16 @@
   input,
   textarea {
     padding: 0.5rem 1rem;
+    font-family: "Filmotype Gay", Arial, sans-serif;
+    background: #e4e4e4;
   }
 }
 .submit {
   background: transparent;
   text-transform: uppercase;
   letter-spacing: 4px;
-  color: #000000;
-  border: 2px solid #000000;
+  color: #fbdf12;
+  border: 2px solid #fbdf12;
   padding: 0.9rem 1.6rem;
   display: inline-block;
   transition: all 0.3s linear;
@@ -78,8 +80,8 @@
 }
 
 .submit:hover {
-  background: #000000;
-  color: #e4e4e4;
+  background: #fbdf12;
+  color: #000000;
 }
 
 @media (max-width: 768px) {
