@@ -68,15 +68,16 @@
 .submit {
   background: transparent;
   text-transform: uppercase;
-  letter-spacing: 4px;
+  letter-spacing: 3px;
   color: #fbdf12;
   border: 2px solid #fbdf12;
   padding: 0.9rem 1.6rem;
   display: inline-block;
   transition: all 0.3s linear;
   cursor: pointer;
-  font-size: 0.8rem;
+  font-size: 1rem;
   white-space: nowrap;
+  font-family: "Filmotype Gay", Arial, sans-serif;
 }
 
 .submit:hover {

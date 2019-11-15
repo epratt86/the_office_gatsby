@@ -1,5 +1,6 @@
 import React from "react"
 import { graphql, useStaticQuery } from "gatsby"
+import { FaFacebookSquare, FaInstagram, FaTwitterSquare } from "react-icons/fa"
 import Layout from "../components/Layout/Layout"
 import Head from "../components/Head"
 import Banner from "../components/Banner/Banner"
@@ -39,7 +40,32 @@ const EventsPage = () => {
       >
         <section className={styles.events}>
           <Banner title='Events' />
-          <h2>See whats happening @theofficebarsd</h2>
+          <div className={styles.header}>
+            <h2>See whats happening @theofficebarsd</h2>
+            <div className={styles.icons}>
+              <a
+                href='https://www.facebook.com/theofficebarsd'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                <FaFacebookSquare style={{ color: "#3b5998" }} />
+              </a>
+              <a
+                href='https://www.instagram.com/theofficebarsd'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                <FaInstagram style={{ margin: "0 1rem", color: "#d62976" }} />
+              </a>
+              <a
+                href='https://www.twitter.com/theofficebarsd'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                <FaTwitterSquare style={{ color: "#1da1f2" }} />
+              </a>
+            </div>
+          </div>
           <div className={styles.flexRow}>
             {data.allInstaNode.edges.map(edge => {
               let timeStamp = edge.node.timestamp

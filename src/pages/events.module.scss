@@ -5,11 +5,18 @@
 
 .events {
   font-family: "Filmotype Gay", sans-serif;
-
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+  }
   h2 {
     font-size: 2rem;
     margin-bottom: 0;
     letter-spacing: 1px;
+  }
+  .icons {
+    font-size: 2rem;
   }
 }
 
