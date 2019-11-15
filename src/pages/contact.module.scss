@@ -1,0 +1,47 @@
+@font-face {
+  font-family: "Filmotype Gay";
+  src: url("../fonts/Filmotype\ Gay.otf");
+}
+
+.contact {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem;
+  gap: 1rem;
+
+  .card {
+    background: #000000;
+    color: #ffffff;
+    padding: 1rem;
+    margin-top: 4.5rem;
+    border-radius: 10px;
+    box-shadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
+    font-family: "Filmotype Gay", Arial, sans-serif;
+
+    h6 {
+      font-size: 1.5rem;
+      letter-spacing: 2px;
+      margin: 0 0 5px;
+    }
+
+    a {
+      text-decoration: none;
+      color: #ffffff;
+    }
+
+    .map {
+      width: 100%;
+      border-radius: 10px;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contact {
+    grid-template-columns: 1fr;
+
+    .card {
+      margin-top: 0;
+    }
+  }
+}

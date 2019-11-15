@@ -75,6 +75,7 @@ const footer = props => (
               COCKTAILS AND ENTERTAINMENT IN NORTH PARK SINCE 1948
             </h1>
             <Link to='home'>Home</Link>
+            <Link to='about'>About</Link>
             <Link to='events'>Events</Link>
             <Link to='contact'>Contact</Link>
             <div className={styles.icons}>
