@@ -2,7 +2,6 @@ import React from "react"
 import Layout from "../components/Layout/Layout"
 import Head from "../components/Head"
 import Banner from "../components/Banner/Banner"
-import { FaGlassMartiniAlt } from "react-icons/fa"
 import styles from "./about.module.scss"
 
 const AboutPage = () => {
@@ -27,7 +26,7 @@ const AboutPage = () => {
         <section className={styles.about}>
           <div className={styles.info}>
             <h4>hours: 4pm – 2am</h4>
-            <h5>happy hour: daily 4pm – 9pm</h5>
+            <h5>happy hour daily: 4pm – 9pm</h5>
           </div>
           <div className={styles.body}>
             <p>

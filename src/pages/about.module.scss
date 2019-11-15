@@ -58,11 +58,7 @@
 
 @media screen and (max-width: 768px) {
   .header {
-    svg {
-      flex-shrink: 0;
-    }
     h2 {
-      text-align: center;
       font-size: 22px;
     }
   }
@@ -73,20 +69,6 @@
       }
       h5 {
         font-size: 1rem;
-      }
-    }
-  }
-}
-@media screen and (max-width: 380px) {
-  .header {
-  }
-  .about {
-    .info {
-      h4 {
-        font-size: 0.8rem;
-      }
-      h5 {
-        font-size: 0.8rem;
       }
     }
   }
