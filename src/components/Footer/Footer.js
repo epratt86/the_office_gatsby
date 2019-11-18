@@ -1,7 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
 import { FaFacebookSquare, FaInstagram, FaTwitterSquare } from "react-icons/fa"
-import map from "../../img/map-compressor.png"
 
 import styles from "./Footer.module.scss"
 

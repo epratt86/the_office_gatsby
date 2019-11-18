@@ -39,7 +39,6 @@ const IndexPage = () => {
                 width: "1100px",
                 display: "block",
                 margin: "0 auto",
-                borderRadius: "5%",
                 boxShadow: "2px 5px 3px 0px rgba(0, 0, 0, 0.5)",
               }}
             />
