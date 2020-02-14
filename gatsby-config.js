@@ -5,7 +5,7 @@ module.exports = {
     title: "The Office Bar - Cocktails & Entertainment since 1948",
     author: "Eric Pratt",
     keywords:
-      "The Office, The Office Bar, happy hour, north park, san diego, cocktails, craft beer, night club",
+      "The Office, The Office Bar, happy hour San Diego, north park happy hour, san diego, cocktails, craft beer, night club, North Park craft cocktails",
     description:
       "The Office Bar has been providing cocktails and entertainment in North Park since 1948. We offer happy hour DAILY from 4pm-9pm and have entertainment nightly from 9pm - 2am. Our hours are from 4pm - 2am daily.",
     siteUrl: "https://www.theofficebarsd.com",

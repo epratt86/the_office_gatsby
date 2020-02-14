@@ -36,7 +36,7 @@ const Head = ({ title, description }) => {
         content={`${data.site.siteMetadata.siteUrl}`}
       />
       <meta name="og:image" property="og:image" content={img} />
-      <meta keywords={`${data.site.siteMetadata.keywords}`} />
+      <meta name="keywords" content={data.site.siteMetadata.keywords} />
       <meta property="og:site_name" content="The Office Bar San Diego" />
       <meta property="og:type" content="website" />
       <meta name="twitter:card" content="summary_large_image" />

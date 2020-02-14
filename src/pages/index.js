@@ -23,8 +23,8 @@ const IndexPage = () => {
   return (
     <Layout>
       <Head
-        title='Home'
-        description='Welcome to the offical web site for The Office Bar. We have been providing cocktails and entertainment in North Park since 1948. Happy hour daily from 4-9.'
+        title="Home"
+        description="Welcome to the offical web site for The Office Bar. We have been providing cocktails and entertainment in North Park since 1948. Happy hour daily from 4-9pm."
       />
 
       <main style={{ marginTop: "60px" }}>
@@ -33,10 +33,10 @@ const IndexPage = () => {
           return (
             <img
               src={edge.node.file.url}
-              alt={edge.node.title}
+              alt="Happy hour in North Park from 4-9pm. Cocktails and dancing nightly."
               style={{
                 maxWidth: "95vw",
-                width: "1100px",
+                width: "900px",
                 display: "block",
                 margin: "0 auto",
                 boxShadow: "2px 5px 3px 0px rgba(0, 0, 0, 0.5)",
