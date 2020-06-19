@@ -8,7 +8,7 @@ const AboutPage = () => {
   return (
     <Layout>
       <Head
-        title='About'
+        title="About"
         description="The Office has been a cocktail bar in North Park since 1948 with the current owners taking over in June of 2008. It's a business doing pleasure with you ;)"
       />
       <main
@@ -19,15 +19,15 @@ const AboutPage = () => {
           display: "block",
         }}
       >
-        <Banner title='About' />
+        <Banner title="About" />
         <div className={styles.header}>
           <h2>*Its a business doing pleasure with you</h2>
         </div>
         <section className={styles.about}>
-          <div className={styles.info}>
+          {/* <div className={styles.info}>
             <h4>hours: 4pm – 2am</h4>
             <h5>happy hour daily: 4pm – 9pm</h5>
-          </div>
+          </div> */}
           <div className={styles.body}>
             <p>
               The first record of cocktails being served at 3936 30th Street was
@@ -59,7 +59,7 @@ const AboutPage = () => {
               concept behind The Office Bar combines the comfort and personality
               of a classic cocktail lounge with the a twist: you're the boss!
             </p>
-            <p>Come for Happy Hour: 4 - 9 DAILY.</p>
+
             <p>
               The Office is available for Birthday Parties, Special Events,
               Benefits, Mixers, etc and shows Chargers, Lakers, NFL, NBA & MLB

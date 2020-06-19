@@ -47,10 +47,10 @@ const ContactPage = () => {
                 3936 30th Street, San Diego 92104 <br />
               </a>
             </h6>
-            <div className={styles.info}>
+            {/* <div className={styles.info}>
               <p>Happy Hour: 4-9pm Daily</p>
               <p>Cocktails and entertainment nightly</p>
-            </div>
+            </div> */}
 
             <a
               href="https://goo.gl/maps/wnHYnMYUU5F2xvPi8"
