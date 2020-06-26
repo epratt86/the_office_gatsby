@@ -16,27 +16,32 @@ const sideDrawer = props => {
       </button>
       <ul>
         <li>
-          <Link to='/' activeClassName={styles.active} title='Home'>
+          <Link to="/" activeClassName={styles.active} title="Home">
             Home
           </Link>
         </li>
         <li>
-          <Link to='/about' activeClassName={styles.active} title='About'>
+          <Link to="/about" activeClassName={styles.active} title="About">
             About
           </Link>
         </li>
         <li>
-          <Link to='/events' activeClassName={styles.active} title='Events'>
+          <Link to="/menu" activeClassName={styles.active} title="Menu">
+            Menu
+          </Link>
+        </li>
+        <li>
+          <Link to="/events" activeClassName={styles.active} title="Events">
             Events
           </Link>
         </li>
         <li>
-          <Link to='/contact' activeClassName={styles.active} title='Contact'>
+          <Link to="/contact" activeClassName={styles.active} title="Contact">
             Contact
           </Link>
         </li>
       </ul>
-      <img src={officeParty} alt='The Office Bar' />
+      <img src={officeParty} alt="The Office Bar" />
     </nav>
   )
 }
