@@ -22,11 +22,11 @@ const footer = props => (
           name="mc-embedded-subscribe-form"
           className="validate"
           target="_blank"
-          novalidate
+          noValidate
           style={{ padding: "0" }}
         >
           <div id="mc_embed_signup_scroll">
-            <label for="mce-EMAIL" className={styles.signUp}>
+            <label htmlFor="mce-EMAIL" className={styles.signUp}>
               Sign up for our mailing list and stay up to date with upcoming
               events and special promotions.
             </label>
@@ -55,7 +55,7 @@ const footer = props => (
               <input
                 type="text"
                 name="b_e48eb00d3affd286ee30bf450_397fc9813c"
-                tabindex="-1"
+                tabIndex="-1"
                 value=""
               />
             </div>

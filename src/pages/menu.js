@@ -22,11 +22,13 @@ const MenuPage = () => {
       >
         <Banner title="Menu" />
         <section className={styles.about}>
-          <img
-            src={img}
-            alt="Drink menu for The Office"
-            style={{ display: "block", margin: "auto", width: "100%" }}
-          />
+          <a href={img}>
+            <img
+              src={img}
+              alt="Drink menu for The Office"
+              style={{ display: "block", margin: "auto", width: "100%" }}
+            />
+          </a>
         </section>
       </main>
     </Layout>
