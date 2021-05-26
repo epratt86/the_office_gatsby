@@ -107,7 +107,7 @@ const footer = props => (
               flexDirection: "column",
             }}
           >
-            <p>Temporary Hours: Fri - Sun, 5pm-close </p>
+            <p>Temporary Hours: Thur - Sun, 6pm - close </p>
             <p>
               Address:&nbsp;
               <a

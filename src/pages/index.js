@@ -24,7 +24,7 @@ const IndexPage = () => {
     <Layout>
       <Head
         title="Home"
-        description="Welcome to the offical web site for The Office Bar. We have been providing cocktails and entertainment in North Park since 1948. Happy hour daily from 4-9pm."
+        description="Welcome to the offical web site for The Office Bar. We have been providing cocktails and entertainment in North Park since 1948."
       />
 
       <main style={{ marginTop: "60px" }}>
@@ -33,7 +33,7 @@ const IndexPage = () => {
           return (
             <img
               src={edge.node.file.url}
-              alt="Happy hour in North Park from 4-9pm. Cocktails and dancing nightly."
+              alt="It's a business doing pleasure with you ;)"
               style={{
                 maxWidth: "95vw",
                 width: "900px",
