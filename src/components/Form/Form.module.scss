@@ -14,7 +14,7 @@
 }
 
 .form {
-  background: #000000;
+  background: #ccc;
   padding: 1rem 1rem 2rem;
   border-radius: 10px;
   box-shadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
@@ -62,14 +62,15 @@
   textarea {
     padding: 0.5rem 1rem;
     font-family: "Filmotype Gay", Arial, sans-serif;
-    background: #e4e4e4;
+    background: #ffffff;
+    border: none;
   }
 }
 .submit {
-  background: transparent;
+  background: #fbdf12;
   text-transform: uppercase;
   letter-spacing: 3px;
-  color: #fbdf12;
+  color: #000000;
   border: 2px solid #fbdf12;
   padding: 0.9rem 1.6rem;
   display: inline-block;
@@ -81,7 +82,7 @@
 }
 
 .submit:hover {
-  background: #fbdf12;
+  background: transparent;
   color: #000000;
 }
 

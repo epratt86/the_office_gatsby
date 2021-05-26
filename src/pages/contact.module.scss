@@ -10,8 +10,8 @@
   gap: 1rem;
 
   .card {
-    background: #000000;
-    color: #ffffff;
+    background: #cccccc;
+    color: #000000;
     padding: 1rem;
     margin-top: 4.5rem;
     border-radius: 10px;
@@ -25,8 +25,15 @@
     }
 
     a {
+      text-decoration: underline;
+      color: #000000;
+      transition: all 0.3s linear;
+      padding: 2px 5px;
+    }
+
+    a:hover {
+      background: #fbdf12;
       text-decoration: none;
-      color: #ffffff;
     }
 
     .info {
