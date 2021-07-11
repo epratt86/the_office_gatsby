@@ -7,7 +7,7 @@ module.exports = {
     keywords:
       "The Office, The Office Bar, happy hour San Diego, north park happy hour, san diego, cocktails, craft beer, night club, North Park craft cocktails",
     description:
-      "The Office Bar has been providing cocktails and entertainment in North Park since 1948. We offer happy hour DAILY from 4pm-9pm and have entertainment nightly from 9pm - 2am. Our hours are from 4pm - 2am daily.",
+      "The Office Bar has been providing cocktails and entertainment in North Park since 1948. We offer happy hour from 4pm-9pm and have entertainment from 9pm - 2am. Our hours are from 4pm - 2am Wednesday - Sunday.",
     siteUrl: "https://www.theofficebarsd.com",
   },
   plugins: [
