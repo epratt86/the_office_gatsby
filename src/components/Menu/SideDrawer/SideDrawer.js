@@ -31,9 +31,7 @@ const sideDrawer = props => {
           </Link>
         </li>
         <li>
-          <Link to="/events" activeClassName={styles.active} title="Events">
-            Events
-          </Link>
+          <a href="https://www.instagram.com/theofficebarsd/" target="_blank" rel="noopener noreferrer">Events</a>
         </li>
         <li>
           <Link to="/contact" activeClassName={styles.active} title="Contact">
