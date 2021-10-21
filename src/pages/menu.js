@@ -2,7 +2,7 @@ import React from "react"
 import Layout from "../components/Layout/Layout"
 import Head from "../components/Head"
 import Banner from "../components/Banner/Banner"
-import img from "../img/2021-(JULY)-Table-Menu-WEB.jpg"
+import img from "../img/2021-(OCT)-Table-Menu-WEB.jpeg"
 import styles from "./about.module.scss"
 
 const MenuPage = () => {
