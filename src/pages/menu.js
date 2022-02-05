@@ -2,7 +2,7 @@ import React from "react"
 import Layout from "../components/Layout/Layout"
 import Head from "../components/Head"
 import Banner from "../components/Banner/Banner"
-import img from "../img/2021-(OCT)-Table-Menu-WEB.jpeg"
+import img from "../img/2022-(FEB)-Table-Menu-WEB.jpg"
 import styles from "./about.module.scss"
 
 const MenuPage = () => {
@@ -22,7 +22,7 @@ const MenuPage = () => {
       >
         <Banner title="Menu" />
         <section className={styles.about}>
-          <a href={img}>
+          <a href={img} target="_blank">
             <img
               src={img}
               alt="Drink menu for The Office"
