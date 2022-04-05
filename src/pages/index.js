@@ -14,7 +14,6 @@ const IndexPage = () => {
       }
     }
   `)
-  console.log(data.contentfulAsset.file.url)
 
   return (
     <Layout>

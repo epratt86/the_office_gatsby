@@ -1,11 +1,20 @@
 import React from "react"
+import { graphql, useStaticQuery } from "gatsby"
 import Layout from "../components/Layout/Layout"
 import Head from "../components/Head"
 import Banner from "../components/Banner/Banner"
-import img from "../img/2022-(FEB)-Table-Menu-WEB.jpg"
 import styles from "./about.module.scss"
 
 const MenuPage = () => {
+  const data = useStaticQuery(graphql`
+    query {
+      contentfulAsset(title: {eq: "Menu"}) {
+        file {
+          url
+        }
+      }
+    }
+  `)
   return (
     <Layout>
       <Head
@@ -22,9 +31,9 @@ const MenuPage = () => {
       >
         <Banner title="Menu" />
         <section className={styles.about}>
-          <a href={img} target="_blank">
+          <a href={data.contentfulAsset.file.url} target="_blank">
             <img
-              src={img}
+              src={data.contentfulAsset.file.url}
               alt="Drink menu for The Office"
               style={{ display: "block", margin: "auto", width: "100%" }}
             />
