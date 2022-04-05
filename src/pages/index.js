@@ -7,18 +7,14 @@ import Landing from "../components/Landing/Landing"
 const IndexPage = () => {
   const data = useStaticQuery(graphql`
     query {
-      allContentfulAsset {
-        edges {
-          node {
-            title
-            file {
-              url
-            }
-          }
+      contentfulAsset(title: {eq: "Home Page"}) {
+        file {
+          url
         }
       }
     }
   `)
+  console.log(data.contentfulAsset.file.url)
 
   return (
     <Layout>
@@ -29,7 +25,17 @@ const IndexPage = () => {
 
       <main style={{ marginTop: "60px" }}>
         <Landing />
-        {data.allContentfulAsset.edges.map(edge => {
+        <img
+              src={data.contentfulAsset.file.url}
+              alt="It's a business doing pleasure with you ;)"
+              style={{
+                maxWidth: "95vw",
+                width: "900px",
+                display: "block",
+                margin: "0 auto",
+              }}
+            />
+        {/* {data.allContentfulAsset.edges.map(edge => {
           return (
             <img
               src={edge.node.file.url}
@@ -42,7 +48,7 @@ const IndexPage = () => {
               }}
             />
           )
-        })}
+        })} */}
       </main>
     </Layout>
   )
