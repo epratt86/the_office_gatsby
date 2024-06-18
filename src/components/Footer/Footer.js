@@ -92,13 +92,6 @@ const footer = props => (
               >
                 <FaInstagram style={{ margin: "0 1rem", color: "#d62976" }} />
               </a>
-              <a
-                href="https://www.twitter.com/theofficebarsd"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FaTwitterSquare style={{ color: "#1da1f2" }} />
-              </a>
             </div>
           </div>
           <div
@@ -107,7 +100,7 @@ const footer = props => (
               flexDirection: "column",
             }}
           >
-            <p>OPEN Sun, Mon, Wed &amp; Thu : 7pm - 2am, Fri &amp; Sat : 6pm - 2am <br /> *CLOSED TUESDAYS*</p>
+            <p>OPEN Sun - Thu : 7pm - 1:45am, Fri &amp; Sat : 5pm - 1:45am</p>
             <p>
               Address:&nbsp;
               <a
@@ -134,14 +127,7 @@ const footer = props => (
     </div>
     <div className={styles.container}>
       <h4 style={{ padding: "10px 0" }}>
-        © {year} The Office. All rights reserved.&nbsp;
-        <a
-          href="https://www.epratt.net"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Site by eric
-        </a>
+        © {year} The Office. All rights reserved.
       </h4>
     </div>
   </footer>
