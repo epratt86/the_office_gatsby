@@ -64,8 +64,7 @@ const AboutPage = () => {
               The Office is available for Birthday Parties, Special Events,
               Benefits, Mixers, etc and shows Chargers, Lakers, NFL, NBA & MLB
               games in HD. Nightly entertainment starts at 9pm with Djs and live
-              music. Please click on the 'Events' link for more information
-              about a specific date.
+              music. 
             </p>
           </div>
         </section>
